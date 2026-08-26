@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos do Desenvolvimento de Software [26E3-26E4] - Projeto de Bloco</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Nossa turma!</h1>
+    <p class="instrucao">Olá, pessoal! Bem-vindos ao nosso projeto de bloco do curso de Fundamentos do Desenvolvimento de Software. Estamos animados para compartilhar nossas ideias e aprendizados com vocês.</p>
+    <p class="instrucao">Cada aluno tem um card. Copie e edite o seu.</p>
+    <div id="galeria">
+    <div class="cartao" id="ProfKND">
+            <h2>Professor</h2>
+            <img class="foto" src="https://infnet.online/wp-content/uploads/avatars/3137/66e3b781274dd-bpthumb.png">
+            <p>Nome: Kennedy Carvalho</p>
+            <p>Curso: Fundamentos do Desenvolvimento de Software</p> 
+            <button class="botao-cartao" onclick="window.location.href='https://www.linkedin.com/in/kennedycarvalho/'">LinkedIn</button>
+            <button class="botao-cartao" onclick="alternarCartao('ProfKND')">Saiba mais</button>
+            <p class="oculto">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+    </div>
+    <div class="cartao" id="AlASK">
+            <h2>Aluno 1</h2>
+            <img class="foto" src="https://media.licdn.com/dms/image/v2/D4E03AQE7EtYxk8oU6g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709600904083?e=1789603200&v=beta&t=uGAFweWEtspe1PFFHam2ehbn6wCA2t0Z6og8vZxQuVI">
+            <p>Nome: André Scherer Kunz</p>
+            <p>Curso: Tecnologia da Informação</p>
+            <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+            <button class="botao-cartao" onclick="window.location.href='https://www.linkedin.com/in/andre-scherer-kunz/'">LinkedIn</button>
+            <button class="botao-cartao" onclick="alternarCartao('AlASK')">Saiba mais</button>
+            <p class="oculto">Não há nada mais...</p>
+        </div>
+        <div class="cartao" id="Dre1">
+            <h2>Aluno 2</h2>
+            <img class="foto" src="https://picsum.photos/id/237/200/300">
+            <p>Nome: Andreza</p>
+            <p>Curso: Tecnologia da Informação</p>
+            <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+            <button class="botao-cartao" onclick="window.location.href='https://www.linkedin.com/in/andreza-cristiane-3a0abb389/'">LinkedIn</button>
+            <button class="botao-cartao" onclick="alternarCartao('Dre1')">Saiba mais</button>
+            <p class="oculto">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+        </div>
+    <div class="cartao" id="ADCA">
+            <h2>Aluno 3</h2>
+            <img class="foto" src="https://infnet.online/wp-content/uploads/avatars/10696/6793ddf73386e-bpfull.jpg">
+            <p>Nome: Adriano Carvalho</p>
+            <p>Curso: Fundamentos do Desenvolvimento de Software</p>
+            <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+            <button class="botao-cartao" onclick="alternarCartao('ADCA')">Saiba mais</button>
+            <p class="oculto">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+    </div>
+    <!--
+        <div class="cartao">
+            <h2>Aluno 1</h2>
+            <img class="foto" src="https://picsum.photos/id/237/200/300">
+            <p>Nome: João Silva</p>
+            <p>Curso: Fundamentos do Desenvolvimento de Software</p>
+            <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+        </div>
+    -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

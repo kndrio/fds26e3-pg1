@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a5490;
+}
+
+.instrucao{
+    text-align: center;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cartao {
+    background: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    text-align: center;
+  /* box model que ja vimos: padding e o espaco interno */
+}
+
+.foto {
+    width: 90px;
+    height: 90px;
+  border-radius: 50%;   /* deixa a imagem redonda */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.botao-cartao {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #1a5490;
+    color: white;
+    cursor: pointer;
+}
+
+.oculto {
+    display: none;
+}
+
+
