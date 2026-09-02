@@ -16,13 +16,30 @@ h1 {
 }
 
 #galeria {
+    /*
+    * Flex Layout Nas próximas aulas
+    *
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    */
+
+    display: block;
+    height: 60vh;
+    clear: both;
+    margin: 0 18vw;
 }
 
 .cartao {
+    /*
+    * display:block;
+    */
+    float: left; /*Flutuando os elementos lado a lado a esquerdo*/
+    margin-right:20px;
+    height: 100%;
+
+
     background: white;
     width: 220px;
     padding: 20px;
