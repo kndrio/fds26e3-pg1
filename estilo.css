@@ -31,6 +31,14 @@ h1 {
     margin: 0 18vw;
 }
 
+#pratica {
+    display: block;
+    height: 30vh;
+    clear: both;
+    margin: 0 18vw;
+    padding-top: 20px;
+}
+
 .cartao {
     /*
     * display:block;

@@ -10,7 +10,7 @@
     <h1>Nossa turma!</h1>
     <p class="instrucao">Olá, pessoal! Bem-vindos ao nosso projeto de bloco do curso de Fundamentos do Desenvolvimento de Software. Estamos animados para compartilhar nossas ideias e aprendizados com vocês.</p>
     <p class="instrucao">Cada aluno tem um card. Copie e edite o seu.</p>
-    <div id="galeria">
+    <section id="galeria">
     <div class="cartao" id="ProfKND">
             <h2>Professor</h2>
             <img class="foto" src="https://infnet.online/wp-content/uploads/avatars/3137/66e3b781274dd-bpthumb.png">
@@ -18,7 +18,7 @@
             <p>Curso: Fundamentos do Desenvolvimento de Software</p> 
             <button class="botao-cartao" onclick="window.location.href='https://www.linkedin.com/in/kennedycarvalho/'">LinkedIn</button>
             <button class="botao-cartao" onclick="alternarCartao('ProfKND')">Saiba mais</button>
-            <p class="oculto">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+            <p class="oculto saibaMais">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
     </div>
     <div class="cartao" id="AlASK">
             <h2>Aluno 1</h2>
@@ -28,7 +28,7 @@
             <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
             <button class="botao-cartao" onclick="window.location.href='https://www.linkedin.com/in/andre-scherer-kunz/'">LinkedIn</button>
             <button class="botao-cartao" onclick="alternarCartao('AlASK')">Saiba mais</button>
-            <p class="oculto">Não há nada mais...</p>
+            <p class="oculto saibaMais">Não há nada mais...</p>
         </div>
         <div class="cartao" id="Dre1">
             <h2>Aluno 2</h2>
@@ -38,7 +38,7 @@
             <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
             <button class="botao-cartao" onclick="window.location.href='https://www.linkedin.com/in/andreza-cristiane-3a0abb389/'">LinkedIn</button>
             <button class="botao-cartao" onclick="alternarCartao('Dre1')">Saiba mais</button>
-            <p class="oculto">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+            <p class="oculto saibaMais">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
         </div>
     <div class="cartao" id="ADCA">
             <h2>Aluno 3</h2>
@@ -47,7 +47,7 @@
             <p>Curso: Fundamentos do Desenvolvimento de Software</p>
             <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
             <button class="botao-cartao" onclick="alternarCartao('ADCA')">Saiba mais</button>
-            <p class="oculto">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
+            <p class="oculto saibaMais">Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
     </div>
     <!--
         <div class="cartao">
@@ -58,7 +58,20 @@
             <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
         </div>
     -->
-    </div>
+    </section>
+    <section id="pratica">
+        <h2>Prática</h2>
+        <div>
+            <h3>Minha lista</h3>
+            <input id="novaTarefa" type="text" placeholder="Digite uma tarefa"/>
+            <button id="botaoAdd" onclick="adicionar()">Adicionar</button>
+            <ul id="listaTarefas">
+                <!-- As tarefas serão adicionadas aqui -->
+
+            </ul>
+        </div>
+    </section>
     <script src="script.js"></script>
+    <script src="script-tarefas.js"></script>
 </body>
 </html>
