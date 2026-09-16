@@ -80,3 +80,7 @@ h1 {
 }
 
 
+label { display: block; margin-top: 14px; font-weight: bold; }
+input, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+button { margin-top: 16px; padding: 10px 18px; border: none; border-radius: 8px;
+            background: #1a5490; color: white; cursor: pointer; font-size: 15px; }

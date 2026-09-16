@@ -44,12 +44,17 @@ function alternarCartao(idDoCartao) {
     //dentro dele achar o paragrafo extra
     let extra = cartao.querySelector(".saibaMais");
 
-    const estaOculto = extra.classList.contains("oculto");
+    //Chaveamento da exibição da classe
+    extra.classList.toggle("oculto");
+
+    /**
+     * 
+     const estaOculto = extra.classList.contains("oculto");
 
     //console.log(cartao, extra);
     console.log('Está oculto?', estaOculto);
 
-    //verificar se está oculto ou não
+     * 1. verificar se está oculto ou não
     if (estaOculto) {
         //exibir
         extra.classList.remove("oculto");
@@ -59,5 +64,7 @@ function alternarCartao(idDoCartao) {
         extra.classList.add("oculto");
         console.log('Classe .oculto adicionada');
     }
+    */
+
 
 }

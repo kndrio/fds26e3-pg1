@@ -9,7 +9,22 @@
 <body>
     <h1>Nossa turma!</h1>
     <p class="instrucao">Olá, pessoal! Bem-vindos ao nosso projeto de bloco do curso de Fundamentos do Desenvolvimento de Software. Estamos animados para compartilhar nossas ideias e aprendizados com vocês.</p>
-    <p class="instrucao">Cada aluno tem um card. Copie e edite o seu.</p>
+    <section id="novoCartao">
+        <p class="instrucao">Cada aluno tem um card. Copie e edite o seu.</p>
+        <form>
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            <label>Seu curso de graduação</label>
+            <input type="text" id="curso" name="curso" placeholder="Fundamentos do Desenvolvimento de Software">
+            <label>Uma frase sobre você</label>
+            <input type="text" id="frase" name="frase" placeholder="Estudante de FDS">
+            <label for="foto">URL da sua foto</label>  
+            <input type="text" id="foto" name="foto" placeholder="https://picsum.photos/237">
+            <button type="button" onclick="criarCartao()">Criar meu card</button>
+            
+        </form>
+    </section>
+
     <section id="galeria">
     <div class="cartao" id="ProfKND">
             <h2>Professor</h2>
@@ -32,7 +47,7 @@
         </div>
         <div class="cartao" id="Dre1">
             <h2>Aluno 2</h2>
-            <img class="foto" src="https://picsum.photos/id/237/200/300">
+            <img class="foto" src="https://picsum.photos/237">
             <p>Nome: Andreza</p>
             <p>Curso: Tecnologia da Informação</p>
             <p>Interesses: Desenvolvimento web, Inteligência Artificial, Jogos Digitais</p>
@@ -73,5 +88,7 @@
     </section>
     <script src="script.js"></script>
     <script src="script-tarefas.js"></script>
+    <script src="script-card.js"></script>
+
 </body>
 </html>
