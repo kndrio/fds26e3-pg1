@@ -1,0 +1,15 @@
+{
+  "name": "first-page",
+  "version": "1.0.0",
+  "description": "First Page with HTML, JS and CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css"],
+  "author": "Kennedy Carvalho",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}

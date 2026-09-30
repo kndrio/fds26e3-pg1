@@ -66,6 +66,8 @@ if(jaExisteCard) {
 
   //INCLUIR BUTTONS
 
+  //add eventlistener
+
   //Encaixar os elementos criadas
 
   cartao.appendChild(foto);
